@@ -1,0 +1,15 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome"
+  contactDetails:
+    name: "Adam - Prod"
+    email: "adam@eazybank.com"
+  onCallSupport:
+    +49 15210529204
